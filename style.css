@@ -1,14 +1,18 @@
+/* pseudo-class link */
 a:link {
     color: blue; /* Default link color */
 }
+/* pseudo-class visited */
 a:visited
 {
    background-color: red; /* Visited link color */
 }
+/* pseudo-class hover */
 a:hover {
     color: brown; /* Hover link color */
 }
 
+/* pseudo-Element first-line */
 p::first-line
 {
     color:green;
